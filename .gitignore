@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Training datasets
+dataset/
+
+# Unnecessary model export
+models/deepfake_mobilenet_finetuned.h5
+
+# Temporary files
+temp_input_video.mp4
+
+# Local inspection files
+project_structure.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
